@@ -14,6 +14,7 @@ module.exports = {
   projectName: 'docs', // Usually your repo name.
   stylesheets: ['https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap',
   'https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap',
+  'https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap'
   ],
   plugins: [
     require.resolve('docusaurus-lunr-search'),
@@ -24,7 +25,7 @@ module.exports = {
      
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo09.png',
+        src: 'img/logo12.png',
       },
       items: [
         {
@@ -97,7 +98,7 @@ module.exports = {
       ],
       logo: {
         alt: 'Station logo',
-        src: 'img/logo01.png',
+        src: 'img/logo04.png',
         href: 'http://stat.finance/',
       },
       copyright: `Copyright © ${new Date().getFullYear()} Station`,

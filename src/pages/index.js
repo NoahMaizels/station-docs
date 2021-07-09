@@ -5,13 +5,13 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
-import Head from '@docusaurus/Head';
+// import Head from '@docusaurus/Head';
 
 const features = [
 
   {
     title: 'Get the best price',
-    imageUrl: 'img/bot.png',
+    imageUrl: 'img/hand.png',
     description: (
       <>
         Before every transaction, we scan the blockchain to find where your options order can be filled for the lowest overall price. We consider platform fees as well as total smart contract gas costs in order to ensure you pay as little as possible.  
@@ -20,7 +20,7 @@ const features = [
   },
   {
     title: 'Unbeatable Liquidity',
-    imageUrl: 'img/btc.png',
+    imageUrl: 'img/liquidity.png',
     description: (
       <>
         Our smart order router allows you to purchase options across multiple platforms in order to meet your needs all in a single transaction (from the user's point of view).
@@ -29,7 +29,7 @@ const features = [
   },
   {
     title: 'Save Time',
-    imageUrl: 'img/thumb.png',
+    imageUrl: 'img/time.png',
     description: (
       <>
         Definet will scan half a dozen (and more are added all the time!) defi options platforms to find you the best price, saving you minutes for every transaction, and adding up to hours and hours for defi power users.
@@ -41,9 +41,9 @@ const features = [
 function Feature({imageUrl, title, description}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
-    <div className={clsx('col col--4', styles.feature)}>
+    <div className={clsx('lightgray col col--4', styles.feature)}>
       {imgUrl && (
-        <div className="text--center">
+        <div className="pb-10 text--left">
           <img className={styles.featureImage} src={imgUrl} alt={title} />
         </div>
       )}
@@ -65,7 +65,7 @@ function Home() {
       >
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
-          <img className="home_crown" src="img/logo.png"></img>
+          <img className="home_crown" src="img/logoOnly.png"></img>
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className={styles.buttons}>
