@@ -28,14 +28,14 @@ input, .navbar__search-input {
 }
 
 .hero--primary {
-  --ifm-hero-background-color: #f9fafb;
+  --ifm-hero-background-color: #F5F5F5;
   --ifm-hero-text-color: #404040;
 }
 
 
 
 html[data-theme='dark'] {
-  --ifm-background-color: #f9fafb;
+  --ifm-background-color: #F5F5F5;
   --ifm-background-surface-color: #e5e7eb;
   --ifm-hover-overlay: #e5e7eb;
   --ifm-menu-link-sublist-icon-filter: invert(100%) sepia(94%) saturate(17%) hue-rotate(223deg) brightness(104%) contrast(98%);
@@ -73,6 +73,7 @@ html[data-theme='dark'] {
 
 * {
   font-family: 'gilroy', 'Gothic A1', 'lato', sans-serif;
+  /* background-color: black; */
 }
 
 .navbar__logo {
