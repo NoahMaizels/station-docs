@@ -43,9 +43,20 @@ html[data-theme='dark'] {
   --ifm-breadcrumb-separator-filter: invert(64%) sepia(11%) saturate(0%) hue-rotate(149deg) brightness(99%) contrast(95%);
 }
 
+
 .main-features {
-  background: url('bg-train.jpg');
+  background-image: url('bg-green.jpg');
+ 
 }
+
+@media (min-width: 1000px){
+  .main-features {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top 0;
+  }
+}
+
 .home_crown {
   width: 150px;
 }
